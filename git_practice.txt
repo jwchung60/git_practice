@@ -1,0 +1,21 @@
+Commit and Push
+
+echo "# git_practice" >> README.md
+     --- Creat a markdown file README.md with the text "# git_practice"
+
+git init
+     --- Turns the current directory into a Git repository
+
+git add README.md
+     --- Now that the current folder is a Git repository from 'git init'
+         Can add files for Git to track
+
+git commit -m "first commit"
+     --- Once files have been added to Git, we commit them.
+         The "-m" option is for leaving a comment which is required.
+
+git branch -M main
+
+git remote add origin https://github.com/jwchung60/git_practice.git
+
+git push -u origin main
